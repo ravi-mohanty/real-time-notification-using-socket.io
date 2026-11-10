@@ -1,0 +1,43 @@
+.navbar{
+    height: 50px;
+    background: seagreen;
+    display: flex;
+    justify-content: center;
+}
+
+.NotificationImg{
+    width: 20px;
+   height: 20px;
+}
+
+.messageImg{
+   width: 20px;
+   height: 20px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px
+    
+}
+.icon{
+    width: 2px;
+    height: 2px;
+    position: relative;
+    
+}
+.counter{
+    position: absolute;
+    /* right:1px; */
+    top: -5px;
+    right: -25px;
+    color: black;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: wheat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
